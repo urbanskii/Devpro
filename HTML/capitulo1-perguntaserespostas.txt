@@ -1,0 +1,193 @@
+URL ou Link
+O que é uma URL?
+Uniform Resource locator, endereço de um dominio um site.
+
+Como se chama o protocolo inseguro de comunicação na internet?
+http
+
+Como se chama o protocolo seguro de comunicação na internet?
+https
+
+O que é um path?
+caminho
+
+Qual letra define a raíz de um site?
+/
+
+Qual o nome formal de um endereço da internet?
+link
+
+
+O que é uma query string?
+utilizada para enviar informações adicionais ao servidor.
+
+Qual é a letra que define o início de uma query string em uma URL?
+?
+
+Qual é a letra que divide os parâmetros de uma query string?
+&
+Qual é a letra que que nome e valor de um parâmetro de uma query string?
+=
+Qual a porta padrão do protocolo http?
+80
+Qual a porta padrão do protocolo https?
+443
+Quais são todas as partes de uma URL?
+Protocolo, subdominio, dominio, porta, path, query string e fragmento ou ancora
+
+Divida a URL em todas sua partes:
+https://pythonpro.com.br/comunidade-devpro-matriculas-abertas?utm_campaign=CDP&utm
+_medium=trafego-organico&utm_source=ebook-rpv
+https://
+pythonpro.com.br/
+comunidade-devpro-matriculas-abertas
+?utm_campaign=CDP&utm_medium=trafego-organico&utm_source=ebook-rpv
+
+Domínio, IP e DNS
+endereço de um site, numeral do site onde o mesmo esta hospedado, converte o dominio para ip.
+
+O que é um endereço de IP?
+é uma estrutura de numeros para indentifica um dispositivo ou computador da rede de computadores.
+
+
+Quais as duas versões mais usadas de endereço de IP?
+
+ipv4e ipv6
+
+O que é o serviço de DNS?
+é como uma agenda com todos os ips de dispositivos, o mesmo converte o dominio para numeral ou ip e procura onde esta localizado este ip.
+
+Onde comprar é possível comprar domínios no Brasil?
+registrobr sim é possivel.
+
+Cite 2 serviços de DNS você conhece.
+google public dns
+cloudflare dns 
+
+O que são subdomínios?
+são sub endereços de um site, por exempo forum.dominio.com.br
+
+Que tipo de registro conecta um subdomínio a um endereço de IP?
+canonical name - cname
+
+Para que serve o tipo CNAME de registro?
+é um tipo de registro DNS que mapeia um dominio ou subdominio.
+
+Qual comando serve para descobrir o IP conectado a um domínio?
+nslookup
+
+Qual endereço de IP aponta para a própria máquina?
+127.0.0.1
+
+Qual o nome do domínio que aponta para a própria máquina?
+localhost
+
+Como Funcionam as Páginas de Internet
+são arquivos que utilizam a linguagem html projetados para serem visualizados em navegadores.
+
+
+Quais são as 3 principais tecnologias para criação de uma página web?
+HTML, CSS, Javascript
+
+O que é HTML?
+HyperText markup language
+
+Quais elementos compõem uma página HTML?
+<html>
+<head>
+<title>
+<body>
+
+Quais as ferramentas necessárias para criar e acessar uma página de internet?
+um editor de texto/codigo, um navegador web para testes e  servidor web local
+
+O que é um arquivo de texto?
+um documento com dados na forma de texto simples com a extensão .txt
+
+Qual a diferença de um arquivo de texto puro para um documento do Microsoft
+Word?
+arquivo de texto puro não possui formatações ja no microsoft word, o mesmo pode possuir diferentes formatos e a extensão podera ser diferente por exemplo .doc e compatibilidade.
+
+As Principais Tags HTML
+
+Quais são as 3 tags html que formam a base de um documento HTML?
+<HTML> <head> <body>
+
+Explique, com suas palavras, para que servem as 9 principais tags visuais a
+seguir: p, h1, h2, h3, em, ul, li, ol e a.
+p = paragrafo
+h1 = titulo principal
+h2 e h3 = subtitulos
+em = enfase
+ul = listas nao ordenadas
+li = item de listas
+ol = ordenar listas
+a = ancora para links.
+
+Tags e seus atributos
+O que são atributos de elementos html?
+valores de um determinado elemento ou propriedades adicionais
+
+
+Para que servem os atributos de elementos html?
+para determinar uma configuração especifica para o elemento.
+
+Estrutura DOM e anatomia da Página html
+Qual a diferença entre tag e elemento html?
+tag faz parte da estrutura do html é utilizada para dar inicio e fim a um elemento.
+elemento pode ser definido como a combinação de uma tag de inicio, conteudo e tag de fechamento.
+
+
+Quantos pais pode ter uma tag?
+pode ter varios pais
+
+Como se chama a tag raiz de um html? Por que ela é chamada assim?
+<html> pois é a tag de nivel superior dela se desencadeia toda a estrutura assim como uma arvore.
+
+Formulário e Campos
+
+Qual tag define um formulário html?
+<form>
+
+Cite 5 tipos de entradas de um formulário.
+<input>
+<select>
+<radio>
+<button>
+<textarea>
+
+Para que servem os atributos type, name e value de um input?
+type = o tipo de entrada que o campo irá aceitar.
+name = indentificação unica do elemento
+value = o atributo inicial ou predefinido configurado para o campo.
+
+Qual atributo do formulário serve para definir a url para onde os dados serão
+enviados?
+action
+
+
+Qual atributo do formulário serve para definir por qual verbo http os dados serão
+enviados?
+method
+
+Quais são os dois verbos http pelos quais um formulário pode enviar dados?
+get e post
+
+Em que parte da url ficam os dados enviados por um formulário através do método
+GET?
+após a query string "?"
+
+
+Qual o tipo de input que serve como botão para envio de dados de um formulário?
+<input type="submit">
+
+Qual a diferença no comportamento de um navegador ao se mandar dados através
+do método POST e através do método GET? Em qual contexto devemos usar esses dois
+verbos HTTP?
+
+GET = os dados são enviados na URL como uma query string após o simbolo de "?" o que pode ser menos seguro para o envio de senhas.
+POST = os dados são enviados no corpo da solicitação HTTP e não na URL, sendo assim os dados não serão expostos na barra de endereços do navegador.
+
+Contexto de utilização:
+GET = recomendado utilizar para recuperação de dados.
+POST = utiliza o corpo da solicitação para o envio dos dados, recomendado em operações de alterar o estado do servidor com informações sensiveis.

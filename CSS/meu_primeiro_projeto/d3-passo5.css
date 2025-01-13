@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: #293651;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.subtitle1 {
+    color: #00a78e;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    letter-spacing: 2pt; 
+}
+
+.subtitle2 {
+    color: #293651;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+
+}
+
+.text {
+    color: #76778c;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.2pt;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: #00a78e;
+    border-radius: 5px;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+.part1 {
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.hero {
+    text-align: center;
+}
+

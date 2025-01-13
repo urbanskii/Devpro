@@ -1,0 +1,30 @@
+h1{
+    color: #293651;
+    font-size: 48px;    
+    font-weight: bold;
+    
+}
+
+
+h2{    
+    color: #00a78e;
+    font-size: 26px;  
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+#link-contratar{
+    background-color: green;
+    border: solid;
+    padding: 5px 5px 5px 5px;
+}
+
+.texto-centralizado{
+    text-align: center;
+
+}
