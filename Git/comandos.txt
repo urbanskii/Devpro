@@ -33,4 +33,8 @@ git config --global pull.rebase true
 
 
 
+para deletar a branch local
+
+git branch -d 1
+
 
