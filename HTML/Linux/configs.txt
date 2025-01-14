@@ -1,0 +1,9 @@
+Gerar a chave privada
+
+ssh-keygen -o -a 100 -t ed25519
+
+Coletar a chave publica
+cat /diretorio_pessoal/.ssh/id_ed25519.pub
+
+para conectar
+ssh -i /diretorio_pessoal/.ssh/"chave_privada" usuario@ipdoservidor
