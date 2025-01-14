@@ -37,4 +37,14 @@ para deletar a branch local
 
 git branch -d 1
 
+#######################################################################################
+
+Tags
+
+
+git tag passo-1 ae52124e0cab83135100632a35ff2c9281fcd0b0
+
+git tag passo-2 c7c32c416370449634f6a2f422383f3eb2e109ce
+
+git push --tags
 
