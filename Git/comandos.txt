@@ -7,10 +7,26 @@ voltar para main para excluir a branch de issue resolvida
 git checkout main
 
 
-para consultar repositorio remoto e deletar branch local
+para atualizar repositorio local com as informações do repo remoto e deletar branch local:
+
+Fetch baixa todas as atualizações do repositorio remoto, porém não aplica na branch atualizar,
+
+git fetch
 
 git fetch --prune 
 
-para atualizar o repositorio local com remoto
+Merge mescla as alterações do branch principal remoto com seu branch atual,
 
 git merge origin/main
+
+rebase reescreve a história do seu branch, deixa uma historia linear e limpa,
+
+git rebase origin/main
+
+git pull é um atalho para git fetch seguido por git merge  ou rebase,
+
+git pull
+
+
+
+
