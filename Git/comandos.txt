@@ -1,0 +1,16 @@
+para criar uma nova branch para tratar alguma feature
+
+git checkout 1
+
+
+voltar para main para excluir a branch de issue resolvida
+git checkout main
+
+
+para consultar repositorio remoto e deletar branch local
+
+git fetch --prune 
+
+para atualizar o repositorio local com remoto
+
+git merge origin/main
