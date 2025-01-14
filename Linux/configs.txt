@@ -7,3 +7,6 @@ cat /diretorio_pessoal/.ssh/id_ed25519.pub
 
 para conectar
 ssh -i /diretorio_pessoal/.ssh/"chave_privada" usuario@ipdoservidor
+
+
+testando nova issue como branch
