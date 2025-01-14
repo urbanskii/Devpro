@@ -27,6 +27,10 @@ git pull é um atalho para git fetch seguido por git merge  ou rebase,
 
 git pull
 
+para configurar o pull com rebase após fetch
+
+git config --global pull.rebase true
+
 
 
 
