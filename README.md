@@ -31,3 +31,10 @@ Passo 3: Aula Como transformar links e botões com CSS
 Confira o arquivo enzo-pascal.html com link (anchor) Confira o arquivo enzo-pascal.css com marcação CSS para botão
 
 Aula Como transformar links e botões com CSS
+
+
+Passo 4: Aula Desafogando Seu Texto com Espaçamento
+Confira o arquivo enzo-pascal.html com link (anchor) Confira o arquivo enzo-pascal.css com marcação CSS para botão
+
+Aula Da Multidão ao Conforto: Desafogando Seu Texto com Espaçamento CSS
+
