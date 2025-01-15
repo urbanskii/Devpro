@@ -7,7 +7,7 @@
   color: #293651;
   font-size: 48px;
   font-weight: bold;
-  padding-bottom: 85px;
+  padding-bottom: 25px;
 }
 
 .subtitle1 {
@@ -23,7 +23,7 @@
   font-family: sans-serif;
   font-size: 22px;
   font-weight: 300;
-  padding-bottom: 150px;
+
 }
 
 .text {
@@ -49,3 +49,8 @@
   margin-left: 80px;
   margin-top: 80px;
 }
+
+.hero {
+  text-align: center;
+}
+

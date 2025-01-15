@@ -38,3 +38,8 @@ Confira o arquivo enzo-pascal.html com link (anchor) Confira o arquivo enzo-pasc
 
 Aula Da Multidão ao Conforto: Desafogando Seu Texto com Espaçamento CSS
 
+Passo 5: Aula Como inserir e centralizar imagens em uma página HTML
+Confira o arquivo enzo-pascal.html com imagem (img) Confira o arquivo enzo-pascal.css com classe center para centralizar imagem
+
+Aula Como inserir e centralizar imagens em uma página HTML
+
