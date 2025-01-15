@@ -48,3 +48,25 @@ git tag passo-2 c7c32c416370449634f6a2f422383f3eb2e109ce
 
 git push --tags
 
+
+######################################################################################
+para corrigir 
+
+se criou arquivos na branch errada por exemplo a main e queira migrar estes arquivos para a branch correta,
+aplica o git stash após isto git checkout -b branch, na nova branch digitar git stash pop
+
+git stash 
+
+
+para desfazer commit anterior caso tenha erros,
+
+git commit --amend 
+
+para forçar mudanças,
+
+git push -f
+
+para apagar commit com erros na branch main:
+
+git reset HEAD^1 --hard
+
