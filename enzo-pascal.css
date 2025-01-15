@@ -3,54 +3,87 @@
   padding: 0;
 }
 
+.parte1 {
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.subtitle1 {
+  font-size: 32px;
+  font-weight: 100;
+  color: #00a78e;
+  font-family: sans-serif;
+  letter-spacing: 2pt;
+  padding-bottom: 20px;
+}
+
 .title {
   color: #293651;
   font-size: 48px;
   font-weight: bold;
-  padding-bottom: 25px;
-}
-
-.subtitle1 {
-  color: #00a78e;
+  margin-top: 20px;
   font-family: sans-serif;
-  font-size: 32px;
-  font-weight: 100;
-  letter-spacing: 2pt; 
 }
 
 .subtitle2 {
-  color: #293651;
-  font-family: sans-serif;
   font-size: 22px;
   font-weight: 300;
-
+  font-family: sans-serif;
+  letter-spacing: 2pt;
+  padding-bottom: 15px;
 }
 
 .text {
   color: #76778c;
-  font-family: sans-serif;
   font-size: 20px;
+  font-family: sans-serif;
   letter-spacing: 1.2pt;
   line-height: 32px;
+  margin-top: 20px;
   margin-bottom: 40px;
 }
 
 .btn {
   background-color: #00a78e;
-  border-radius: 5px;
-  padding: 20px 40px;
-  text-decoration: none;
+  border-radius: 3px;
+  padding: 12px 40px;
   color: white;
+  font-size: 16px;
   font-family: sans-serif;
-
-}
-
-.part1 {
-  margin-left: 80px;
-  margin-top: 80px;
+  text-decoration: none;
 }
 
 .hero {
+  height: 540px;
   text-align: center;
+  margin-top: 20px;
 }
+
+.hero img {
+  height: 100%;
+}
+
+.parte2 {
+  background-color: #00a78e;
+  color: white;
+  padding: 80px 80px;
+
+}
+
+.parte2 .subtitle1 {
+  color: white;
+
+}
+
+.parte2 .texto {
+  letter-spacing: 1.2pt;
+  margin-bottom: 26px;
+}
+
+
+.parte2 .projetos {
+  list-style: none;
+}
+
+
 
